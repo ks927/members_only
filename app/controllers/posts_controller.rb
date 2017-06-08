@@ -27,7 +27,7 @@ class PostsController < ApplicationController
     
    def signed_in_user
        unless signed_in?
-           flash[:danger] = "You must be a member to see this!"
+           flash[:danger] = "You must be a member to post!"
            redirect_to signin_url
        end
    end
