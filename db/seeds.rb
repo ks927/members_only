@@ -1,8 +1,5 @@
 
 User.create!([
-  {name: "odin", email: "odin@project.com", password: "foobar"},
-  {name: "kyle", email: "kyle@yahoo.com", password: "foobar"},
-  {name: "frank", email: "funderwood@potus.com", password: "foobar"},
   {name: "frodo", email: "frodo@shire.com", password: "foobar"}
 ])
 
