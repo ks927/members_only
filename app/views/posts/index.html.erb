@@ -1,0 +1,18 @@
+<h1>Secret Posts</h1>
+
+<ul class="post">
+<% @posts.each do |post| %>
+
+<li>Title: <%= post.title %> <br>
+ Body: <%= post.body %> <br>
+    <% if !cookies[:remember_token].nil? %>
+Author: <%= post.user.name %>
+    <% else %>
+Author: "Anonymous"
+</li>
+
+    <% end %>
+
+<% end %>
+    
+</ul>
