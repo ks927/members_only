@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
   end
     
   def delete
-     sign_out 
+     sign_out if signed_in?
      flash[:success] = "You're signed out!"
      redirect_to root_url
   end
