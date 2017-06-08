@@ -11,6 +11,7 @@ class SessionsController < ApplicationController
           flash[:success] = "You're signed in!"
           redirect_to root_url
       else
+          flash.now[:error] = "Invalid username/password. Try again."
           render 'new'
       end
   end

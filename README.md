@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails authentication and authorization practice application via The Odin Project.
 
-Things you may want to cover:
+This is an exercise in "rolling your own authentication" system in Rails. Signed-in users can create posts and see the authors of the other posts. When a user signs out, their cookie is deleted, and they can no longer create new posts. Additionally, the authors of the existing posts switch to "Anonymous".
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Instructions can be found here https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication?ref=lnav
