@@ -1,10 +1,10 @@
 
 User.create!([
-  {name: "odin", email: "odin@project.com", password_digest: "$2a$10$AEKqB.SC9TWXoOOuiy5rcuuL4M47uHc9TudMGzK2/Xny91rU5C8L2", remember_digest: "d40d145fae5409795c466ff0d710304cde2bc8ac"},
-  {name: "kyle", email: "kyle@yahoo.com", password_digest: "$2a$10$Hh5Yc0OjWLCnWnnUmX9IAuHZeBqVuV/WK55HCEyqlCq8BnXdx1epK", remember_digest: "6498260bc785e97963fbe3e09ac9afae99f42cd8"},
-  {name: "frank", email: "funderwood@potus.com", password_digest: "$2a$10$V1Ugo7YwQYpmDsVgIIFqX.xX0BmUFZupPPhLkuJNzCppWRYvYe.iS", remember_digest: "3729679211df12363b826526d30ff75ff638136d"},
-  {name: "frank", email: "funderwood@potus.com", password_digest: "$2a$10$/Jb3jHUiP2OouWckLIw4Be3rimAGT8BVWZPYstC47hC83vfa/yfvy", remember_digest: "0271222b51d2730c89899632497f01ed54f76043"},
-  {name: "frodo", email: "frodo@shire.com", password_digest: "$2a$10$W2lSFMvwlR6Tl5sezOSgbuhFSAts5KOSEY6ITpqQIrRTMqtf031xi", remember_digest: "49db26a76542baf2b2409c02fc6638ef55295abc"}
+  {name: "odin", email: "odin@project.com", password: "foobar"},
+  {name: "kyle", email: "kyle@yahoo.com", password: "foobar"},
+  {name: "frank", email: "funderwood@potus.com", password: "foobar"},
+  {name: "frank", email: "funderwood@potus.com", password: "foobar"},
+  {name: "frodo", email: "frodo@shire.com", password: "foobar"}
 ])
 
 Post.create!([
