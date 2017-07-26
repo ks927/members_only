@@ -7,7 +7,7 @@
 
 <li>Title: <%= post.title %> <br>
  Body: <%= post.body %> <br>
-    <% if cookies[:remember_token] %>
+    <% if current_user %>
 Author: <%= post.user.name %>
     <% else %>
 Author: Anonymous
